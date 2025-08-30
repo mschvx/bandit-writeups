@@ -1,12 +1,5 @@
 # Bandit Level 0 → Level 1 Writeup
 
-**Goal:**  
-Log into the Bandit game using SSH.  
-- **Host:** bandit.labs.overthewire.org  
-- **Port:** 2220  
-- **Username:** bandit0  
-- **Password:** bandit0  
-
 ---
 
 ## Steps I Took
