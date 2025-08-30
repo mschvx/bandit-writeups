@@ -12,6 +12,7 @@ SSH is a way to securely connect to another computer over a network.
 
 ### 2. Using SSH
 I opened my terminal and typed the following command:
+This uses the username, host, and port provided in the initial instructions.
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
