@@ -12,7 +12,7 @@ This repository will document my learning process level by level, with explanati
 ## Progress Table
 | Level | Status         | Writeup Link                |
 |-------|----------------|-----------------------------|
-| 0     | In Progress     | [Level 0](./Level-00)       |
+| 0     | Completed      | [Level 0](./Level-00)       |
 | 1     | In Progress     | [Level 1](./Level-01)       |
 | 2     | In Progress     | [Level 2](./Level-02)       |
 | 3     | Not Started     | [Level 3](./Level-03)       |
