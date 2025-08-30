@@ -13,8 +13,8 @@ This repository will document my learning process level by level, with explanati
 | Level | Status         | Writeup Link                        |
 |-------|----------------|-------------------------------------|
 | 0     | Completed      | [Level 0](./Level-00/Level-00.md)    |
-| 1     | In Progress     | [Level 1](./Level-01/Level-01.md)    |
-| 2     | In Progress     | [Level 2](./Level-02/Level-02.md)    |
+| 1     | Not Started     | [Level 1](./Level-01/Level-01.md)    |
+| 2     | Not Started     | [Level 2](./Level-02/Level-02.md)    |
 | 3     | Not Started     | [Level 3](./Level-03/Level-03.md)    |
 | 4     | Not Started     | [Level 4](./Level-04/Level-04.md)    |
 | 5     | Not Started     | [Level 5](./Level-05/Level-05.md)    |
