@@ -11,7 +11,7 @@ This repository will document my learning process level by level, with explanati
 
 ## Progress Tracker
 
-**Completed Levels:** 0 / 34  
+**Completed Levels:** 5 / 34  
 **Progress:** ![Progress](https://progress-bar.dev/0/?scale=34&title=Completed&width=300&color=blue)
 
 ---
