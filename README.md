@@ -13,15 +13,15 @@ This repository will document my learning process level by level, with explanati
 | Level | Status         | Writeup Link                        |
 |-------|----------------|-------------------------------------|
 | 0     | Completed      | [Level 0](./Level-00/Level-00.md)    |
-| 1     | Not Started     | [Level 1](./Level-01/Level-01.md)    |
-| 2     | Not Started     | [Level 2](./Level-02/Level-02.md)    |
-| 3     | Not Started     | [Level 3](./Level-03/Level-03.md)    |
-| 4     | Not Started     | [Level 4](./Level-04/Level-04.md)    |
-| 5     | Not Started     | [Level 5](./Level-05/Level-05.md)    |
-| 6     | Not Started     | [Level 6](./Level-06/Level-06.md)    |
-| 7     | Not Started     | [Level 7](./Level-07/Level-07.md)    |
-| 8     | Not Started     | [Level 8](./Level-08/Level-08.md)    |
-| 9     | Not Started     | [Level 9](./Level-09/Level-09.md)    |
+| 1     | Completed    | [Level 1](./Level-01/Level-01.md)    |
+| 2     | Completed     | [Level 2](./Level-02/Level-02.md)    |
+| 3     | Completed     | [Level 3](./Level-03/Level-03.md)    |
+| 4     | Completed    | [Level 4](./Level-04/Level-04.md)    |
+| 5     | Completed    | [Level 5](./Level-05/Level-05.md)    |
+| 6     | Completed    | [Level 6](./Level-06/Level-06.md)    |
+| 7     | Completed    | [Level 7](./Level-07/Level-07.md)    |
+| 8     | Completed     | [Level 8](./Level-08/Level-08.md)    |
+| 9     | Completed    | [Level 9](./Level-09/Level-09.md)    |
 | 10    | Not Started     | [Level 10](./Level-10/Level-10.md)   |
 | 11    | Not Started     | [Level 11](./Level-11/Level-11.md)   |
 | 12    | Not Started     | [Level 12](./Level-12/Level-12.md)   |
