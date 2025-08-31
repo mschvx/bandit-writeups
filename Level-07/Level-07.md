@@ -12,10 +12,10 @@ Since the file is very large, it is not practical to open it entirely.
 ---
 
 ### 2. Searching for the Keyword
-I used the `grep` command to search for the keyword `millionth` within `data.txt`:
+I used the following command to search for the keyword `millionth` in `data.txt`:
 
 ```bash
-grep millionth data.txt
+cat data.txt | grep millionth
 ```
 
 This displayed the line containing `millionth` along with the password.
