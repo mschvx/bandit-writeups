@@ -1,19 +1,18 @@
-# Bandit Level 0 → Level 1 Writeup
+# Bandit Level 0 → Level 1
 
 ---
 
-## Steps I Took
+## Steps Taken
 
 ### 1. Understanding the Task
-The instructions said to connect to the server using **SSH** (Secure Shell).  
-SSH is a way to securely connect to another computer over a network.
+The objective of this level is to establish a secure connection to the Bandit server using **SSH** (Secure Shell).  
+SSH is a protocol that allows users to securely access and manage remote systems over a network.
 
 ---
 
-### 2. Using SSH
-I opened my terminal and typed the following command:
-This uses the username, host, and port provided in the initial instructions.
+### 2. Establishing the SSH Connection
+To connect to the server, I executed the following command in the terminal.  
+This command specifies the username, hostname, and port number provided in the challenge instructions:
 
 ```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-
