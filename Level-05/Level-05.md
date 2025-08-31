@@ -23,16 +23,16 @@ find . -type f -size 1033c ! -executable
 The command returned the file:
 
 ```bash
-./maybehere07/-file2
+./maybehere07/.file2
 ```
 
 ---
 
 ### 3. Opening the File
-Since the filename begins with a dash (`-`), I used the full path to safely read it:
+I then used the `cat` command to read the file and obtain the password:
 
 ```bash
-cat ./-file2
+cat ./maybehere07/.file2
 ```
 
 This displayed the password for the next level.
