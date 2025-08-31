@@ -1,4 +1,4 @@
-# Bandit Level 0 → Level 1
+# Connecting to the Bandit Server
 
 ---
 
