@@ -23,7 +23,7 @@ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
 This returned the file:
 
 ```bash
-/path/to/the/file
+/var/lib/dpkg/info/bandit7.password
 ```
 
 ---
@@ -32,7 +32,8 @@ This returned the file:
 I then used the `cat` command to read the file and retrieve the password:
 
 ```bash
-cat /path/to/the/file
+cat /var/lib/dpkg/info/bandit7.password
 ```
 
 This displayed the password for the next level.
+
