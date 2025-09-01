@@ -56,6 +56,6 @@ tar -xf <next-tar-file>
 ```
 
 I repeated this process until the `file` command reported `ASCII text`.
+From this, I was able to determine the password for the next level.
 
-### 5. Retrieving the Password
-Once the final file was human-readable, I used `cat` to read its contents. This allowed me to identify the password for the next level.
+
