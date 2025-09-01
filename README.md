@@ -22,17 +22,17 @@ This repository will document my learning process level by level, with explanati
 | 7     | Completed    | [Level 7](./Level-07/Level-07.md)    |
 | 8     | Completed     | [Level 8](./Level-08/Level-08.md)    |
 | 9     | Completed    | [Level 9](./Level-09/Level-09.md)    |
-| 10    | Not Started     | [Level 10](./Level-10/Level-10.md)   |
-| 11    | Not Started     | [Level 11](./Level-11/Level-11.md)   |
-| 12    | Not Started     | [Level 12](./Level-12/Level-12.md)   |
-| 13    | Not Started     | [Level 13](./Level-13/Level-13.md)   |
-| 14    | Not Started     | [Level 14](./Level-14/Level-14.md)   |
-| 15    | Not Started     | [Level 15](./Level-15/Level-15.md)   |
-| 16    | Not Started     | [Level 16](./Level-16/Level-16.md)   |
-| 17    | Not Started     | [Level 17](./Level-17/Level-17.md)   |
-| 18    | Not Started     | [Level 18](./Level-18/Level-18.md)   |
-| 19    | Not Started     | [Level 19](./Level-19/Level-19.md)   |
-| 20    | Not Started     | [Level 20](./Level-20/Level-20.md)   |
+| 10    | Completed     | [Level 10](./Level-10/Level-10.md)   |
+| 11    | Completed     | [Level 11](./Level-11/Level-11.md)   |
+| 12    | Completed     | [Level 12](./Level-12/Level-12.md)   |
+| 13    | Completed     | [Level 13](./Level-13/Level-13.md)   |
+| 14    | Completed     | [Level 14](./Level-14/Level-14.md)   |
+| 15    | Completed   | [Level 15](./Level-15/Level-15.md)   |
+| 16    | Completed    | [Level 16](./Level-16/Level-16.md)   |
+| 17    | Completed   | [Level 17](./Level-17/Level-17.md)   |
+| 18    | Completed    | [Level 18](./Level-18/Level-18.md)   |
+| 19    | Completed    | [Level 19](./Level-19/Level-19.md)   |
+| 20    | Completed  | [Level 20](./Level-20/Level-20.md)   |
 | 21    | Not Started     | [Level 21](./Level-21/Level-21.md)   |
 | 22    | Not Started     | [Level 22](./Level-22/Level-22.md)   |
 | 23    | Not Started     | [Level 23](./Level-23/Level-23.md)   |
