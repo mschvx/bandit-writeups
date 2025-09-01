@@ -42,9 +42,10 @@ From this, I was able to determine the password for the next level.
 
 ---
 
-### 5. Notes on Technical Details
+### 4. Notes on Technical Details
 
 * Running the listener in the **background** with `&` is necessary; otherwise, the terminal would be blocked and we couldn’t run `suconnect`.
 * Using `-n` in `echo` avoids sending extra newline characters that would cause a mismatch.
 * Choosing a port number (`1234`) is arbitrary, but it must match on both server (`nc`) and client (`suconnect`).
 * The setuid binary allowed `suconnect` to execute with elevated privileges so it could safely transmit the next password.
+
