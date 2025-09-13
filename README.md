@@ -33,11 +33,11 @@ This repository will document my learning process level by level, with explanati
 | 18    | Completed    | [Level 18](./Level-18/Level-18.md)   |
 | 19    | Completed    | [Level 19](./Level-19/Level-19.md)   |
 | 20    | Completed  | [Level 20](./Level-20/Level-20.md)   |
-| 21    | Not Started     | [Level 21](./Level-21/Level-21.md)   |
-| 22    | Not Started     | [Level 22](./Level-22/Level-22.md)   |
-| 23    | Not Started     | [Level 23](./Level-23/Level-23.md)   |
-| 24    | Not Started     | [Level 24](./Level-24/Level-24.md)   |
-| 25    | Not Started     | [Level 25](./Level-25/Level-25.md)   |
+| 21    | Completed     | [Level 21](./Level-21/Level-21.md)   |
+| 22    | Completed     | [Level 22](./Level-22/Level-22.md)   |
+| 23    | Completed     | [Level 23](./Level-23/Level-23.md)   |
+| 24    | Completed     | [Level 24](./Level-24/Level-24.md)   |
+| 25    | Completed     | [Level 25](./Level-25/Level-25.md)   |
 | 26    | Not Started     | [Level 26](./Level-26/Level-26.md)   |
 | 27    | Not Started     | [Level 27](./Level-27/Level-27.md)   |
 | 28    | Not Started     | [Level 28](./Level-28/Level-28.md)   |
