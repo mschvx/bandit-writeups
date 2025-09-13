@@ -40,6 +40,18 @@ cd ~
 cat /usr/bin/cronjob_bandit22.sh
 ```
 
-Reading `/usr/bin/cronjob_bandit22.sh` revealed the information that contained the password for the next level.
+The script referenced or created a temporary file in `/tmp` that contained the password for the next level.
+
+---
+
+### 4. Visiting the temporary file to get the password
+
+Commands I ran:
+
+```bash
+cat /tmp/file
+```
+
+Reading `/tmp/file` revealed the password for the next level.
 
 From this, I was able to determine the password for the next level.
