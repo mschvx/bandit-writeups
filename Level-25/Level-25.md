@@ -1,4 +1,4 @@
-# Level 24 → Level 25
+# Level 25 → Level 26
 
 ---
 
@@ -6,52 +6,68 @@
 
 ### 1. Understanding the Task
 
-A daemon is listening on port `30002`. It will return the password for `bandit25` **if** it receives two things on one connection: the password for `bandit24` and the correct 4-digit numeric PIN. There is no way to get the PIN other than trying all `0000`–`9999` combinations (brute force). The service accepts multiple requests over a single connection, so we do **not** need to open a new TCP connection for each PIN — we can stream all attempts into one `nc` session.
+The shell for `bandit26` is **not `/bin/bash`**, but a restricted program (`/bin/showtext`) that displays text. To obtain the password, we need to **break out of this restricted shell** into a normal shell and access the password file for `bandit26`.
 
 ---
 
-### 2. Preparing a temporary working directory and script
+### 2. Investigating the Shell
 
-Commands I ran:
-
-```bash
-mktemp -d
-cd /tmp/tmp.xxxxxx   # the mktemp output directory
-nano test.sh
-chmod +x test.sh
-```
-
-Inside `test.sh` I put the brute-force pipeline:
+I checked `/etc/passwd` for `bandit26`:
 
 ```bash
-#!/bin/bash
-
-for i in {0000..9999}
-do
-  echo <bandit24_password> $i
-done | nc localhost 30002 | grep -v "Wrong"
+cat /etc/passwd | grep bandit26
 ```
 
-**Notes on the script:**
+Most users use `/bin/bash`, but `bandit26` uses:
 
-* The `for` loop generates every 4-digit code from `0000` to `9999`.
-* Each iteration prints a line with `<bandit24_password> <PIN>`.
-* The entire loop is piped into a **single** `nc localhost 30002` invocation, so one connection is reused for all 10,000 attempts (much faster and avoids connection overhead).
-* `grep -v "Wrong"` filters the service responses: `grep -v` prints all lines **except** those that contain the word `"Wrong"`. This removes the repeated incorrect-response noise so only successful/interesting responses remain visible.
+```
+/bin/showtext
+```
+
+I confirmed `/usr/bin/showtext` exists and saw that it behaves like `more` — it displays text in a paginated way.
 
 ---
 
-### 3. Running the brute-force and extracting the result
+### 3. Triggering the Pager
 
-Commands I ran:
+Knowing it uses a pager, I made my terminal window **very small** to trigger the `more` interface. Then I logged in:
 
 ```bash
-./test.sh
+ssh bandit26@localhost -p 2220 -i <private_key>
 ```
 
-* The script streamed 10,000 attempts into the listening daemon on port `30002`.
-* Most responses contained `"Wrong"` and were filtered out by `grep -v`.
-* When the correct 4-digit PIN was tried, the daemon returned the `bandit25` password (the one-line positive response was not filtered by `grep -v`), which I captured from the output.
+The `more` interface appeared as expected.
+
+---
+
+### 4. Breaking Out to Bash
+
+While in the `more` interface, I pressed:
+
+```
+v
+```
+
+This opened `vim`. Inside `vim`, I ran:
+
+```vim
+:set shell=/bin/bash
+:shell
+```
+
+This gave me a **normal shell prompt** as `bandit26`.
+
+---
+
+### 5. Accessing the Password
+
+From the shell as `bandit26`, I navigated to the password file:
+
+```bash
+cd /etc/bandit_pass
+cat bandit26
+```
+
+The password for `bandit26` was revealed.
 
 From this, I was able to determine the password for the next level.
-
