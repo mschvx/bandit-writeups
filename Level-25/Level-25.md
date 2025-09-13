@@ -21,7 +21,7 @@ nano test.sh
 chmod +x test.sh
 ```
 
-Inside `test.sh` I put the brute-force pipeline (with the level-24 password **redacted**):
+Inside `test.sh` I put the brute-force pipeline:
 
 ```bash
 #!/bin/bash
@@ -54,3 +54,4 @@ Commands I ran:
 * When the correct 4-digit PIN was tried, the daemon returned the `bandit25` password (the one-line positive response was not filtered by `grep -v`), which I captured from the output.
 
 From this, I was able to determine the password for the next level.
+
